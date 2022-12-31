@@ -7,16 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <style type="text/css">
+        .button-container {
+            background-color: black;
+        }
+
+        .button-container button {
+            border-style: none;
+            cursor: pointer;
+        }
+
+    </style>
 </head>
 
 <body>
     <div id="player" style="width: 800px; height: 600px;">
         <div class="js-video-container" style="width: 100%; height: 100%"></div>
-        <div style="background-color: black;">
-            <button class="js-play-button" style="border-style: none; cursor: pointer;" hidden><i class="fa fa-play"
-                    aria-hidden="true"></i></button>
-            <button class="js-pause-button" style="border-style: none; cursor: pointer;" hidden><i class="fa fa-pause"
-                    aria-hidden="true"></i></button>
+        <div class="button-container">
+            <button class="js-play-button" hidden><i class="fa fa-play" aria-hidden="true"></i></button>
+            <button class="js-pause-button" hidden><i class="fa fa-pause" aria-hidden="true"></i></button>
         </div>
     </div>
 
