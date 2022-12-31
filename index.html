@@ -20,18 +20,15 @@
             flex-grow: 1;
         }
 
-        .button-container {
+        .play-button-container {
             background-color: black;
             flex-grow: 0;
         }
 
-        .button-container button {
+        .control-button {
             border-style: none;
             cursor: pointer;
             background-color: transparent;
-        }
-
-        .button-container button i {
             color: white;
         }
 
@@ -41,8 +38,8 @@
 <body>
     <div id="player" class="player">
         <div class="js-video-container"></div>
-        <div class="button-container">
-            <button class="js-play-button" hidden><i class="fa fa-play" aria-hidden="true"></i></button>
+        <div class="play-button-container">
+            <button class="js-play-button control-button" hidden><i class="fa fa-play" aria-hidden="true"></i></button>
             <button class="js-pause-button" hidden><i class="fa fa-pause" aria-hidden="true"></i></button>
         </div>
     </div>
