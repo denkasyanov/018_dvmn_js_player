@@ -7,7 +7,7 @@
 
 ## Источники
 
-JS Player - https://github.com/devmanorg/video-player-jslib
+JS Player - https://github.com/devmanorg/video-player-jslib  
 Иконка - https://dvmn.org
 
 Урок по курсу dvmn.org: [Верстаем видеоплеер](https://dvmn.org/modules/django-layout)
