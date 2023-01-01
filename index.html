@@ -23,6 +23,7 @@
         .button-container {
             background-color: black;
             flex-grow: 0;
+            display: flex;
         }
 
         .control-button {
@@ -37,6 +38,11 @@
 
         .control-button i {
             font-size: 150%;
+            flex-grow: 0;
+        }
+
+        .filler {
+            flex-grow: 1;
         }
 
     </style>
@@ -53,6 +59,8 @@
                     aria-hidden="true"></i></button>
             <button class="js-volume-button control-button" hidden><i class="fa fa-volume-off"
                     aria-hidden="true"></i></button>
+            <div class="filler"></div>
+            <button class="js-fullscreen-button control-button"><i class="fa fa-expand" aria-hidden="true"></i></button>
         </div>
         <div class="mute-button-container"></div>
     </div>
